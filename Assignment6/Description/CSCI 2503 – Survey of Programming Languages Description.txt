@@ -1,0 +1,31 @@
+CSCI 2503 – Survey of Programming Language
+Georgia Southern University
+Department of Computer Science
+Fall 2023
+Assignment 6
+Point Value: 20 points
+Due: Thursday Nov 16, 2023, start of class
+Description
+Questions 1 & 2 adapted from Sebesta’s Concepts of Programming Language.
+1. C++ ADTs – Recreate the provided Java class (Fan.java) and main method in C++ using a
+header (.h) file with function prototypes and a test program (.cpp) with the main method
+and function definitions. When submitting, be sure to submit both the header and test
+program files in an organized (folders by language) zip file.
+Create a Word document and provide a screenshot of your executed code.
+2. C# ADTs – Recreate the provided Java class (Fan.java) and main method in C# using
+properties for each data member instead of get and set methods.
+In your Program.cs file, adjust the main method to accommodate these changes.
+In your opinion, is either of these accessor methods (properties vs. specific get/set
+methods) easier to use and/or understand?
+When submitting, be sure to submit both the class definition and test program files in an
+organized zip file. Add the answers to the above questions in the Word document created
+in Problem 1 as well as a screenshot of your executed code.
+3. Ruby ADTs – Recreate the provided Java class (Fan.java) and main method in Ruby using
+either attr_reader/attr_writer or attr_accessor for the data members instead of get and set
+methods.
+In your test program, adjust the main method to accommodate these changes.
+In your opinion, of the three methods (attr_* methods, properties, or specific get/set
+methods) which is easiest to use and/or understand?
+When submitting, be sure to submit both the class definition and test program files in an
+organized zip file. Add the answers to the above questions in the Word document created
+in Problem 1 as well as a screenshot of your executed code.

@@ -1,0 +1,48 @@
+ # File: Fan.rb
+ # Course: CSCI 2503
+ # Author: Valentina Silveira
+ # Created on: Nov 17,2023
+
+class Fan
+  # Implement fan class
+  attr_accessor :speed, :radius, :color
+
+  # create a default no-arg constructor
+  def initialize
+    self.speed = 1
+    self.radius = 1.53
+    self.color = "green"
+  end
+
+  # create a convenience constructor
+  def initialize_with_radius(new_radius)
+    self.radius = new_radius
+  end
+
+  # create a method to return a string description of the fan
+  def to_s
+    "A #{"%.2f" % radius} inch #{color} fan at a speed of #{speed}"
+  end
+end
+
+class FanTest
+  def self.main
+    fan1 = Fan.new
+    fan1.speed = 3
+    fan1.radius = 10.26
+    fan1.color = "yellow"
+    puts fan1
+
+    fan2 = Fan.new
+    fan2.initialize_with_radius(5.79)
+    fan2.speed = 2
+    fan2.color = "blue"
+    puts fan2
+
+    fan3 = Fan.new
+    puts fan3
+  end
+end
+
+# Run the main method
+FanTest.main
